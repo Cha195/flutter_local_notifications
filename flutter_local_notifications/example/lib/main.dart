@@ -1078,6 +1078,7 @@ class _HomePageState extends State<HomePage> {
         AndroidNotificationAction(
           urlLaunchActionId,
           'Action 1',
+          showsUserInterface: true,
           icon: DrawableResourceAndroidBitmap('food'),
           contextual: true,
         ),
